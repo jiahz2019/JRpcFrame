@@ -1,0 +1,13 @@
+<test log>16:41:7.777248 [DEBUG]testLog.go:18: ===> zinx debug content ~~666
+<test log>16:41:7.777279 [DEBUG]testLog.go:19: ===> zinx debug content ~~888
+<test log>16:41:7.777287 [ERROR]testLog.go:20: ===> zinx Error!!!! ~~~555~~~
+<test log>16:45:54.867577 [DEBUG]testLog.go:19: ===> zinx debug content ~~%d 666
+<test log>16:45:54.867639 [DEBUG]testLog.go:20: ===> zinx debug content ~~888
+<test log>16:45:54.867677 [ERROR]testLog.go:21: ===> zinx Error!!!! ~~~555~~~
+<test log>16:46:5.655406 [DEBUG]testLog.go:19: ===> zinx debug content ~~666
+<test log>16:46:5.655473 [DEBUG]testLog.go:20: ===> zinx debug content ~~888
+<test log>16:46:5.655498 [ERROR]testLog.go:21: ===> zinx Error!!!! ~~~555~~~
+<test log>18:27:30.479465 [ERROR]testLog.go:19: ===> Error!!! ~~888
+<test log>18:27:30.480503 [ERROR]testLog.go:20: ===> Error!!!! ~~~666~~~
+<test log>21:22:12.728124 [ERROR]testLog.go:19: ===> Error!!! ~~888
+<test log>21:22:12.728168 [ERROR]testLog.go:20: ===> Error!!!! ~~~666~~~

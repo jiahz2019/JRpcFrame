@@ -1,0 +1,51 @@
+
+{
+    "NodeList":[
+        {
+          "NodeId": 1,
+          "Private": false,
+          "ListenAddr":"127.0.0.1:8001",
+          "MaxRpcParamLen": 409600,
+          "NodeName": "Node_Test1",
+		      "remark":"//以_打头的，表示只在本机进程，不对整个子网开发",
+          "ServiceList": ["TestService1"]
+        },
+        {
+          "NodeId": 2,
+          "Private": false,
+          "ListenAddr":"127.0.0.1:8002",
+          "MaxRpcParamLen": 409600,
+          "NodeName": "Node_Test2",
+		      "remark":"//以_打头的，表示只在本机进程，不对整个子网开发",
+          "ServiceList": ["TestService2"]
+        },
+        {
+          "NodeId": 3,
+          "Private": false,
+          "ListenAddr":"127.0.0.1:8003",
+          "MaxRpcParamLen": 409600,
+          "NodeName": "Node_Test3",
+		      "remark":"//以_打头的，表示只在本机进程，不对整个子网开发",
+          "ServiceList": ["TestService3"]
+        },
+        {
+          "NodeId": 4,
+          "Private": false,
+          "ListenAddr":"127.0.0.1:8004",
+          "MaxRpcParamLen": 409600,
+          "NodeName": "Node_Test4",
+		      "remark":"//以_打头的，表示只在本机进程，不对整个子网开发",
+          "ServiceList": ["TestService3"]
+        }],
+      
+       "MasterDiscoveryNode": [
+        {
+          "NodeId": 1,
+          "Private": false,
+          "ListenAddr":"127.0.0.1:8001",
+          "MaxRpcParamLen": 409600,
+          "NodeName": "Node_Test1",
+		      "remark":"//以_打头的，表示只在本机进程，不对整个子网开发",
+          "ServiceList": ["TestService1"]
+        }]
+}

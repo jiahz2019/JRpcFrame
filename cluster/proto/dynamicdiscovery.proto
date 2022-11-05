@@ -1,0 +1,28 @@
+syntax = "proto3";
+package cluster;
+option go_package = "./cluster";
+
+message DiscoveryNodeInfo{
+    int32 NodeId = 1;
+    string NodeName = 2;
+    string ListenAddr  = 3;
+    uint32 MaxRpcParamLen = 4;
+    bool Private = 5;
+    repeated string PublicServiceList = 6;
+}
+
+//Client->Master
+message DiscoverClientReq{
+    DiscoveryNodeInfo nodeInfo = 1;
+}
+
+//Master->Client
+message DiscoverMasterReq{
+    int32 MasterNodeId = 1;
+    bool IsFull = 2;
+    int32 DelNodeId    = 3;
+    repeated DiscoveryNodeInfo  nodeInfo = 4;
+}
+
+message Empty{
+}
